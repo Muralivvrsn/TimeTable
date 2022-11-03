@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body {
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   background-color: #1a1a40;
@@ -11,7 +15,6 @@ body {
   cursor: pointer;
   letter-spacing: 2px;
   word-spacing: 3px;
-  margin-left: 40%;
   margin-top: 50px;
   font-size: 2em;
   padding: 10px 20px;
@@ -42,7 +45,7 @@ body {
   border: none;
   letter-spacing: 1px;
   word-spacing: 2px;
-  margin: 20px 20px 20px 31%;
+  margin: 20px 20px 20px 20px;
   font-size: 1em;
   padding: 10px 20px;
   width: fit-content;
@@ -59,8 +62,37 @@ body {
   margin: auto;
 }
 #first{
-    background-color: aliceblue;
+    background-color: #AAAAAA;
 }
 #first{
     display: block;
 }
+#discription1{
+    display: none;
+}
+.button{
+    font-size:3rem;
+    color: #1a1a40;
+}
+#first{
+    font-size: 2rem;
+}
+#next-btn{
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 20px 20px 20px 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    width: fit-content;
+    transform: scale(1);
+    border-radius: 30px;
+    background-color: #270082;
+    box-shadow: 1px 0px 1px 1px #0a0a0a;
+}
+#next-btn:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+

@@ -1,6 +1,7 @@
 const time = document.getElementById("time");
-const button = document.getElementById("btn-primary");
+const button1 = document.getElementById("btn-primary");
 const dis = document.getElementById("discription");
+const dis1 = document.getElementById("discription1");
 let thisIstrue = true;
 function Display() {
   if (thisIstrue) {
@@ -10,10 +11,12 @@ function Display() {
     alert("Don't Click again , It won't change");
   }
 }
-function disappear(){
-  dis.style.display = 'none';
+function disappear() {
+  dis.style.display = "none";
+  dis1.style.display = "block";
+  complete.style.display ='block';
 }
 setInterval(() => {
   disappear();
 }, 10000);
-button.addEventListener("click", Display);
+button1.addEventListener("click", Display);
